@@ -1,0 +1,2 @@
+C:\Users\Admin\OneDrive\Birkbeck\Project\Disassembler++\Debug\Disassembler++.exe
+C:\Users\Admin\OneDrive\Birkbeck\Project\Disassembler++\Debug\Disassembler++.pdb

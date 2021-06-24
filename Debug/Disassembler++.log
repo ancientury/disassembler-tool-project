@@ -1,0 +1,8 @@
+﻿  moc PortableExecutable.h
+  Disassembler.cpp
+  PortableExecutable.cpp
+  main.cpp
+C:\Users\Admin\OneDrive\Birkbeck\Project\Disassembler++\PortableExecutable.cpp(74,41): warning C4804: '<': unsafe use of type 'bool' in operation
+  moc_Disassembler.cpp
+  moc_PortableExecutable.cpp
+  Disassembler++.vcxproj -> C:\Users\Admin\OneDrive\Birkbeck\Project\Disassembler++\Debug\Disassembler++.exe

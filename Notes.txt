@@ -1,0 +1,12 @@
+File offset of the start of machine code and program data:
+
+EP (File) = AddressOfEntryPoint - .text[VirtualAddress] + .text[PointerToRawData]
+
+00002840 - .text[00001000] + .text[400] = 00001C40
+
+Get AddressOfEntryPoint from IMAGE_OPTIONAL_HEADER.AddressOfEntryPoint (this is a VA)
+Search in which section header this VA resides (usually the 1st one, but you should really search in all section headers).
+Once you have the right section header, get its VirtualAddress and PointerToRawData fields.
+Subtract VirtualAddress from AddressOfEntryPoint: you now have a "delta"
+As the exactly same delta applies to offsets, then: add "delta" to PointerToRawData.
+
