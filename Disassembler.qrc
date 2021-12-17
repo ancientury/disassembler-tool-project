@@ -1,8 +1,9 @@
 <RCC>
     <qresource prefix="/">
+        <file>images/Binary.ico</file>
+        <file>images/Close.ico</file>
+        <file>images/Information.ico</file>
         <file>images/Open.ico</file>
         <file>images/Save.ico</file>
-        <file>images/Information.ico</file>
-        <file>images/Help.ico</file>
     </qresource>
 </RCC>
